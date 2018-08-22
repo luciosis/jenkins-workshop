@@ -15,7 +15,9 @@ new comment!
         app.updateQuality();
         assertEquals("foo", app.items[0].name);
     }
-
+/*
+HILFE!!!
+*/
     @Test
     public void foo2() {
         Item[] items = new Item[] { new Item("cake", 0, 0) };
