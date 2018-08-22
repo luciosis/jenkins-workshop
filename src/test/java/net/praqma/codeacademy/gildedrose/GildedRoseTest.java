@@ -16,4 +16,12 @@ new comment!
         assertEquals("foo", app.items[0].name);
     }
 
+    @Test
+    public void foo2() {
+        Item[] items = new Item[] { new Item("cake", 0, 0) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("cake", app.items[0].name);
+    }
+
 }
