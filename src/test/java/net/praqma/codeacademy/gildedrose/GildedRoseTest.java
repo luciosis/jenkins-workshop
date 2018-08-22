@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class GildedRoseTest {
 /*
-new comment
+new comment!
 */
     @Test
     public void foo() {
